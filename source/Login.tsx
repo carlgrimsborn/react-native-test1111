@@ -36,7 +36,7 @@ const Login: React.FC<ILogin> = (props) => {
       const resp = await askForLoginCode(phone);
       if (resp) {
         console.log("RESP2", resp);
-        alert("Success! code: 100100");
+        alert("Success! a code has been sent to your phone");
         setactivityIndicator(false);
       } else {
         alert("Login failed");
