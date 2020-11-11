@@ -1,0 +1,92 @@
+{
+   "success": true,
+   "message": "OK",
+   "errors": [],
+   "data": {
+      "user": {
+         "_id": "5ebbbad072a454458970b3a2",
+         "email": "demobuddy@test.com",
+         "phone": "+46766123456",
+         "firstName": "Demo",
+         "lastName": "Buddy",
+         "address": {
+            "streetName": "Drottninggatan 1",
+            "city": "Stockholm",
+            "zipCode": "111 51"
+         },
+         "buddyInfo": {
+            "description": "tester",
+            "favQuote": "All quotes",
+            "favThing": "Everything"
+         },
+         "buddyNumber": 2031,
+         "country": "se",
+         "paymentProvider": "manual",
+         "account_stage": "activated",
+         "isEmployee": false,
+         "isBuybackBuddy": false,
+         "tags": {
+            "techbuddy": 1
+         },
+         "allowExpenseReporting": true,
+         "blacklistedNotifications": [],
+         "allowNotificationsWhenUnavailable": true,
+         "buddyTravelFee": {
+            "payment_partner": 0,
+            "pre_tax": 0,
+            "post_tax": 0,
+            "logs": [
+               {
+                  "timestamp": {
+                     "$date": {
+                        "$numberLong": "1589361360699"
+                     }
+                  },
+                  "admin_id": "5a2113c9e3a2e9b2659c00a1",
+                  "travel_fee": {
+                     "payment_partner": 0,
+                     "pre_tax": 0,
+                     "post_tax": 0
+                  }
+               }
+            ]
+         },
+         "location": {
+            "type": "Point",
+            "coordinates": [
+               18.06652,
+               59.328613
+            ]
+         },
+         "profilePictureUrl": "https://techbuddy-qa.s3.eu-west-1.amazonaws.com/buddy/image/2020/05/1589361361_5ebbbad0ab63a8.52441030.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIZ6AGZEHOUWZHUNQ%2F20200513%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20200513T094114Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4a46ef88a3b52108e24ea5dec9a9415dcdbc579b9422653c3495b8ddf3a93879",
+         "profilePictureObject": {
+            "media": "image",
+            "objectKey": "buddy/image/2020/05/1589361361_5ebbbad0ab63a8.52441030.png",
+            "objectURL": "https://techbuddy-qa.s3.eu-west-1.amazonaws.com/buddy/image/2020/05/1589361361_5ebbbad0ab63a8.52441030.png",
+            "timestamp": {
+               "$date": {
+                  "$numberLong": "1589361360955"
+               }
+            },
+            "issuer": "admin"
+         },
+         "extraPayment": {
+            "se": {
+               "SEK": {
+                  "buddy_payment_first_hour": 250,
+                  "buddy_payment_hour": 150,
+                  "buddy_payment_solved_task_fast": 50
+               }
+            }
+         },
+         "approvedTasks": 0,
+         "averageRating": 0,
+         "radius": 80000,
+         "successfulJobs": 0,
+         "createdAt": "2020-05-13T11:16:00.7200Z",
+         "name": "Demo Buddy",
+         "scheduleUpdateNeeded": false
+      },
+      "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZWJiYmFkMDcyYTQ1NDQ1ODk3MGIzYTIiLCJleHAiOjE1ODk0NDkyNzQsImNvbnRleHQiOnsiaXNzdWVyIjoiYnVkZHkiLCJlbWFpbCI6ImRlbW9idWRkeUB0ZXN0LmNvbSIsInBob25lIjoiKzQ2NzY2MTIzNDU2IiwiY291bnRyeSI6InNlIiwiaXNNb2JpbGVDbGllbnQiOmZhbHNlfX0.92zBTTqG8BSv8U_WwlrSE8KGOJA-RewYIVCUWbtO4HY"
+   }
+}
